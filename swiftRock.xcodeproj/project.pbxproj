@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04E5BE3B1C326DB90017303F /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E5BE3A1C326DB90017303F /* UIImage.swift */; };
+		04E5BE3D1C3270640017303F /* jeremy.gif in Resources */ = {isa = PBXBuildFile; fileRef = 04E5BE3C1C3270640017303F /* jeremy.gif */; };
 		40061984FBD2CF42343F22B3 /* Pods_swiftRock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D5A4930D018EB5173C36B37 /* Pods_swiftRock.framework */; };
 		DD4930E21C10310B00E8ECF7 /* NSDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4930E11C10310B00E8ECF7 /* NSDate.swift */; };
 		DD700A851BFD9BEA00D0CD51 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD700A841BFD9BEA00D0CD51 /* AppDelegate.swift */; };
@@ -30,6 +32,8 @@
 
 /* Begin PBXFileReference section */
 		02D9A5BD35AC67BAE362B84E /* Pods-swiftRock.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swiftRock.debug.xcconfig"; path = "Pods/Target Support Files/Pods-swiftRock/Pods-swiftRock.debug.xcconfig"; sourceTree = "<group>"; };
+		04E5BE3A1C326DB90017303F /* UIImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImage.swift; sourceTree = "<group>"; };
+		04E5BE3C1C3270640017303F /* jeremy.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = jeremy.gif; sourceTree = "<group>"; };
 		3D5A4930D018EB5173C36B37 /* Pods_swiftRock.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_swiftRock.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD4930E11C10310B00E8ECF7 /* NSDate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSDate.swift; sourceTree = "<group>"; };
 		DD700A811BFD9BEA00D0CD51 /* swiftRock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swiftRock.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -117,6 +121,7 @@
 				DD700A8D1BFD9BEA00D0CD51 /* LaunchScreen.storyboard */,
 				DD700A901BFD9BEA00D0CD51 /* Info.plist */,
 				DD700A9A1BFDB65800D0CD51 /* swiftRock-Bridging-Header.h */,
+				04E5BE3C1C3270640017303F /* jeremy.gif */,
 			);
 			path = swiftRock;
 			sourceTree = "<group>";
@@ -142,6 +147,7 @@
 				DDCB1A8C1BFECA6300F05D70 /* UIView.swift */,
 				DDCB1A8E1BFEF44600F05D70 /* NSObject.swift */,
 				DD4930E11C10310B00E8ECF7 /* NSDate.swift */,
+				04E5BE3A1C326DB90017303F /* UIImage.swift */,
 			);
 			name = Category;
 			sourceTree = "<group>";
@@ -209,6 +215,7 @@
 			files = (
 				DD700A8F1BFD9BEA00D0CD51 /* LaunchScreen.storyboard in Resources */,
 				DD700A8C1BFD9BEA00D0CD51 /* Assets.xcassets in Resources */,
+				04E5BE3D1C3270640017303F /* jeremy.gif in Resources */,
 				DD700A8A1BFD9BEA00D0CD51 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -274,6 +281,7 @@
 				DD700A971BFD9C0400D0CD51 /* XZTabBarController.swift in Sources */,
 				DD700A871BFD9BEA00D0CD51 /* ViewController.swift in Sources */,
 				DDCB1A8F1BFEF44600F05D70 /* NSObject.swift in Sources */,
+				04E5BE3B1C326DB90017303F /* UIImage.swift in Sources */,
 				DD4930E21C10310B00E8ECF7 /* NSDate.swift in Sources */,
 				DD700AAA1BFDD18C00D0CD51 /* AppMacro.swift in Sources */,
 				DD700AA01BFDBA7500D0CD51 /* RKCommon.swift in Sources */,

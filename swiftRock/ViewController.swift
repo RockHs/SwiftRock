@@ -21,6 +21,7 @@ class ViewController: RKBaseViewController, UITableViewDataSource, UITableViewDe
         
         self.beikaoTextArr = ["口语练习", "跟读训练", "口语模考", "考位预订"]
         
+        
         self.beikaoScrollView();
         
         let tableView = UITableView(frame: CGRectMake(0, 0, self.view.frame.width, self.view.frame.height), style: UITableViewStyle.Plain);
@@ -61,12 +62,15 @@ class ViewController: RKBaseViewController, UITableViewDataSource, UITableViewDe
 //        }
         let sepator : CGFloat = (self.view.frame.width - (image?.size.width)! * 4)/5
         
+        let gifImage = UIImage.gifWithName("jeremy")
+
+        
         for(var i = 0; i < 4; i++){
             let buttom = UIButton(type: UIButtonType.Custom);
             buttom.frame = CGRectMake(sepator + ((image?.size.width)! + sepator) * CGFloat(i), 10, (image?.size.width)!, (image?.size.height)!);
-            buttom.setImage(UIImage(named: "homepage_beikao_\(i)"), forState: UIControlState.Normal);
+            buttom.setImage(gifImage, forState: UIControlState.Normal);
             buttom.addTarget(self, action: Selector("pushToVC:"), forControlEvents: .TouchUpInside);
-            
+            buttom.rkMakeRoundCorner()
             
             scrollView.addSubview(buttom);
             
