@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import SCLAlertView
 
 class ViewController: RKBaseViewController, UITableViewDataSource, UITableViewDelegate {
     
@@ -33,6 +34,13 @@ class ViewController: RKBaseViewController, UITableViewDataSource, UITableViewDe
 //        let rk = RKCommon();
 //        rk.pushViewController(UIViewController, animate: <#T##Bool#>)
         self.view.addSubview(tableView);
+        
+//        SCLAlertView().showInfo("Important info", subTitle: "You are great")
+        
+//        SCLAlertView().showInfo("题目", subTitle: "加载成功罗，亲们😄👌")
+        
+        
+        
     }
     
     //我要备考
@@ -86,6 +94,16 @@ class ViewController: RKBaseViewController, UITableViewDataSource, UITableViewDe
     }
     
     func pushToVC(button: UIButton) {
+        
+//        SCLAlertView().showInfo("Important info", subTitle: "You are great")
+        
+        let alertViewResponder: SCLAlertViewResponder = SCLAlertView().showSuccess("Hello World", subTitle: "This is a more descriptive text.")
+        
+        // Upon displaying, change/close view
+        alertViewResponder.setTitle("New Title") // Rename title
+        alertViewResponder.setSubTitle("New description") // Rename subtitle
+//        alertViewResponder.close()
+
 //        self.navigationController?.pushViewController(<#T##viewController: UIViewController##UIViewController#>, animated: <#T##Bool#>)
     }
     

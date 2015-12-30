@@ -7,6 +7,7 @@ target 'swiftRock' do
     use_frameworks!
     
     pod 'Alamofire'
+    pod 'SCLAlertView'
 
 end
 

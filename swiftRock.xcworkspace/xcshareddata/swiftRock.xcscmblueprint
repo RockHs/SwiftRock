@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "E14B7096A7E5412EF8BAFAE886F76542655CA172",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "2EAAA08778BDE546A5C32770D4B88CB8F8198914" : 0,
+    "E14B7096A7E5412EF8BAFAE886F76542655CA172" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "35325CF7-8560-44F5-9B62-593CDA594E2E",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "2EAAA08778BDE546A5C32770D4B88CB8F8198914" : "",
+    "E14B7096A7E5412EF8BAFAE886F76542655CA172" : "SwiftRock\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "swiftRock",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "swiftRock.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "git.zhan.com:simulateexam\/satsimulateexam.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "2EAAA08778BDE546A5C32770D4B88CB8F8198914"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/RockHs\/SwiftRock.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E14B7096A7E5412EF8BAFAE886F76542655CA172"
+    }
+  ]
+}

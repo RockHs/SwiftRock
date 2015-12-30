@@ -8,6 +8,7 @@
 
 import UIKit
 
+
 class XZTabBarController: UITabBarController {
 
     override func viewDidLoad() {
@@ -24,6 +25,8 @@ class XZTabBarController: UITabBarController {
         homeViewController.tabBarItem = homeItem;
         
         self.viewControllers = [homeViewController];
+        
+        
         
     }
 
